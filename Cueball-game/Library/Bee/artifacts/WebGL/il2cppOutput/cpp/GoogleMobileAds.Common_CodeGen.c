@@ -1,0 +1,92 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void AppStateEventClient__ctor_m7033F1368759856CC91974B018E4004FC6CB36D6 (void);
+extern void AppStateEventClient_get_Instance_mD6A5472FC082A0EDFB6A26F7290A90E88FEB0E9B (void);
+extern void AppStateEventClient_add_AppStateChanged_m5F95F6F5F802D911F18C9A0F6F9CEF5C6D41CD7C (void);
+extern void AppStateEventClient_remove_AppStateChanged_mCCA2A08AE6710D6FA7AA2418B8CFDC071B189499 (void);
+extern void AppStateEventClient_OnApplicationPause_m85DD95B9D3B4E6722106A81E328690F7CAEBA8F8 (void);
+extern void AppStateEventClient_U3CAppStateChangedU3Em__0_m07E4B12AED15A4F1195CB9A239F6ED3432AE1F67 (void);
+extern void MobileAdsEventExecutor__ctor_m41D53858D8E26BD68A2C99A50E0A3ABAA1AD3EE4 (void);
+extern void MobileAdsEventExecutor_Initialize_m76A4DE8CDB2F00244DF305ACE913CDA65750ADEE (void);
+extern void MobileAdsEventExecutor_IsActive_m739FAFCE76C28483EAD8FDF0D8004DE3FA8D7002 (void);
+extern void MobileAdsEventExecutor_Awake_mBED27401298ECAA85C578989510914356138EDAB (void);
+extern void MobileAdsEventExecutor_ExecuteInUpdate_m4D7D863382B3DFA6F791CBCFD275B5F7EE4BA91E (void);
+extern void MobileAdsEventExecutor_InvokeInUpdate_m707D79AE5D859144C46C142B97CA2C20BA53A171 (void);
+extern void MobileAdsEventExecutor_Update_mA2FA865A80DE36FC26CAD15783037324C74D5113 (void);
+extern void MobileAdsEventExecutor_OnDisable_m23177F7EA326224E1CCB135CC0CF96FE54CAC975 (void);
+extern void MobileAdsEventExecutor__cctor_m7AD876F64AB941DD9AABAEE8B2A16CA87F09B57E (void);
+extern void U3CInvokeInUpdateU3Ec__AnonStorey0__ctor_mD6FCF6FC84A141A42B2D40632E39BA8F7028216F (void);
+extern void U3CInvokeInUpdateU3Ec__AnonStorey0_U3CU3Em__0_m3F739919615588E573F5D6B77761038D0B6D8807 (void);
+static Il2CppMethodPointer s_methodPointers[17] = 
+{
+	AppStateEventClient__ctor_m7033F1368759856CC91974B018E4004FC6CB36D6,
+	AppStateEventClient_get_Instance_mD6A5472FC082A0EDFB6A26F7290A90E88FEB0E9B,
+	AppStateEventClient_add_AppStateChanged_m5F95F6F5F802D911F18C9A0F6F9CEF5C6D41CD7C,
+	AppStateEventClient_remove_AppStateChanged_mCCA2A08AE6710D6FA7AA2418B8CFDC071B189499,
+	AppStateEventClient_OnApplicationPause_m85DD95B9D3B4E6722106A81E328690F7CAEBA8F8,
+	AppStateEventClient_U3CAppStateChangedU3Em__0_m07E4B12AED15A4F1195CB9A239F6ED3432AE1F67,
+	MobileAdsEventExecutor__ctor_m41D53858D8E26BD68A2C99A50E0A3ABAA1AD3EE4,
+	MobileAdsEventExecutor_Initialize_m76A4DE8CDB2F00244DF305ACE913CDA65750ADEE,
+	MobileAdsEventExecutor_IsActive_m739FAFCE76C28483EAD8FDF0D8004DE3FA8D7002,
+	MobileAdsEventExecutor_Awake_mBED27401298ECAA85C578989510914356138EDAB,
+	MobileAdsEventExecutor_ExecuteInUpdate_m4D7D863382B3DFA6F791CBCFD275B5F7EE4BA91E,
+	MobileAdsEventExecutor_InvokeInUpdate_m707D79AE5D859144C46C142B97CA2C20BA53A171,
+	MobileAdsEventExecutor_Update_mA2FA865A80DE36FC26CAD15783037324C74D5113,
+	MobileAdsEventExecutor_OnDisable_m23177F7EA326224E1CCB135CC0CF96FE54CAC975,
+	MobileAdsEventExecutor__cctor_m7AD876F64AB941DD9AABAEE8B2A16CA87F09B57E,
+	U3CInvokeInUpdateU3Ec__AnonStorey0__ctor_mD6FCF6FC84A141A42B2D40632E39BA8F7028216F,
+	U3CInvokeInUpdateU3Ec__AnonStorey0_U3CU3Em__0_m3F739919615588E573F5D6B77761038D0B6D8807,
+};
+static const int32_t s_InvokerIndices[17] = 
+{
+	4410,
+	6537,
+	3597,
+	3597,
+	3524,
+	6439,
+	4410,
+	6567,
+	6517,
+	4410,
+	6443,
+	6443,
+	4410,
+	4410,
+	6567,
+	4410,
+	4410,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_GoogleMobileAds_Common_CodeGenModule;
+const Il2CppCodeGenModule g_GoogleMobileAds_Common_CodeGenModule = 
+{
+	"GoogleMobileAds.Common.dll",
+	17,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
